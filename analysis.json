@@ -1,0 +1,78 @@
+{
+ "features": [
+  "gender",
+  "age",
+  "hypertension",
+  "heart_disease",
+  "ever_married",
+  "work_type",
+  "Residence_type",
+  "avg_glucose_level",
+  "bmi",
+  "smoking_status"
+ ],
+ "imp_original": {
+  "gender": 0.031024602051024596,
+  "age": 0.2269095959841497,
+  "hypertension": 0.02491554322018702,
+  "heart_disease": 0.022526059844256863,
+  "ever_married": 0.01882524240577951,
+  "work_type": 0.04721994852814968,
+  "Residence_type": 0.032682108291826224,
+  "avg_glucose_level": 0.2844562397055778,
+  "bmi": 0.24252284139197997,
+  "smoking_status": 0.06891781857706866
+ },
+ "imp_balanced": {
+  "gender": 0.04469361107578613,
+  "age": 0.39617955791225895,
+  "hypertension": 0.08153902027046667,
+  "heart_disease": 0.0514089632300849,
+  "ever_married": 0.09336468700353451,
+  "work_type": 0.05618877187555207,
+  "Residence_type": 0.05818286582908835,
+  "avg_glucose_level": 0.08020831618837836,
+  "bmi": 0.062284284225882745,
+  "smoking_status": 0.07594992238896728
+ },
+ "selected_cum_original": 0.8013302801461514,
+ "selected_cum_balanced": 0.6716201418270716,
+ "max_abs_shift_pp": 20.424792351719944,
+ "balanced_sizes": [
+  [
+   3531,
+   4443
+  ],
+  [
+   3555,
+   4438
+  ],
+  [
+   3568,
+   4454
+  ]
+ ],
+ "mcnemar": {
+  "classic_correct_quantum_wrong": 288,
+  "quantum_correct_classic_wrong": 358,
+  "n_total": 4981,
+  "p_two_sided": 0.0065874943216820215
+ },
+ "mcnemar_by_seed": {
+  "0": {
+   "b": 288,
+   "c": 358,
+   "p": 0.0065874943216820215
+  },
+  "1": {
+   "b": 280,
+   "c": 339,
+   "p": 0.019668487267682538
+  },
+  "2": {
+   "b": 269,
+   "c": 350,
+   "p": 0.0012839706594249833
+  }
+ }
+}
